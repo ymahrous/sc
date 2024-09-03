@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Hero from '../components/Hero';
 import Slider from '../components/Slider';
+import Footer from '../components/Footer';
 import InstaGallery from '../components/InstaGallery';
 import { SliderData } from '../components/SliderData';
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero heading='Sobre El Cel' message='Capturing moments in nature' />
       <Slider slides={SliderData} />
       <InstaGallery />
+      <Footer />
     </div>
   );
 };

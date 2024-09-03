@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Hero from '../components/Hero';
+import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
@@ -12,6 +13,7 @@ export default function Contact() {
 
             <Hero heading='Contact' message='' />
             <ContactForm />
+            <Footer />
         </div>
     );
 };

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Hero from '../components/Hero';
 import MyWork from "../components/MyWork";
+import Footer from "../components/Footer";
 
 export default function Work() {
     return (
@@ -12,6 +13,7 @@ export default function Work() {
 
             <Hero heading='My Gallery' message='Photographing the sky' />
             <MyWork />
+            <Footer />
         </div>
     );
 };
