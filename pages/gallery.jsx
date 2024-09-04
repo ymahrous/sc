@@ -8,7 +8,7 @@ export default function Work() {
         <div>
             <Head>
                 <title>Gallery</title>
-                <link rel="icon" href="/favicon.ico"/>
+                <link rel="icon" href="/gallery.ico"/>
             </Head>
 
             <Hero heading='My Gallery' message='Photographing the sky' />
