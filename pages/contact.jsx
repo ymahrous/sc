@@ -11,7 +11,7 @@ export default function Contact() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <Hero heading='Contact' message='' />
+            <Hero heading='Contact' message='Your feedback is important to us' />
             <ContactForm />
             <Footer />
         </div>
